@@ -1,0 +1,2 @@
+#!/bin/sh
+. lbin.handle fred.d/fred.sub $0 $*

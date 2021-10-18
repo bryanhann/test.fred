@@ -1,0 +1,7 @@
+main () {
+    [ "${FRED_IS_ACTIVATED}" == "" ] || return
+    export  FRED_IS_ACTIVATED=1
+    echo ACTIVATING
+}
+
+main $*
